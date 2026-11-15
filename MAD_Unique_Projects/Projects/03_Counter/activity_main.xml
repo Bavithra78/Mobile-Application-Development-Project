@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp" android:gravity="center_horizontal">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Start / Stop Counter" android:textSize="24sp" android:textStyle="bold" android:gravity="center" android:padding="12dp"/>
+    <EditText android:id="@+id/first" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Counter value" android:inputType="text"/>
+    <EditText android:id="@+id/second" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="" android:inputType="text"/>
+    <Button android:id="@+id/action" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Run / Submit"/>
+    <Button android:id="@+id/action2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clear / Stop"/>
+    <TextView android:id="@+id/result" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Output appears here" android:textSize="18sp" android:padding="18dp" android:gravity="center"/>
+</LinearLayout>
